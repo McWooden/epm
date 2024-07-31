@@ -5,8 +5,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: {
-    default: "Event organizer dan bio",
-    template: "%s - Event organizer dan bio",
+    template: "%s - Event organizer dan Biro Perjalanan Wisata Jawa Tengah",
+    default: "Event organizer dan Biro Perjalanan Wisata Jawa Tengah",
   },
   description: "Ahli dalam Event Organizer dan Biro Perjalanan Wisata",
   twitter: {
