@@ -174,8 +174,16 @@ export default function Home() {
 
       <footer className="bg-gray-200 mt-auto">
         <div className="container mx-auto px-6 py-3 flex justify-between items-center">
-          <a href="#" className="text-xl font-bold text-gray-500 hover:text-gray-400">CV Elegan Prima Mandiri</a>
-          <p className="py-2 text-gray-500 sm:py-0">All rights reserved</p>
+          <a href="#" className="text-xl font-bold text-gray-500 hover:text-gray-400">&copy; CV Elegan Prima Mandiri</a>
+          <p className="py-2 text-gray-500 sm:py-0">Monglong Margoyoso Salaman Magelang</p>
+        </div>
+        <div className="container mx-auto px-6 py-3 flex justify-between items-center">
+          <a href="#" className="text-xl font-bold text-gray-500 hover:text-gray-400">eleganprimamandiri@gmail.com</a>
+          <p className="py-2 text-gray-500 sm:py-0">+62 813 2929 5252</p>
+        </div>
+        <div className="container mx-auto px-6 py-3 flex justify-between items-center">
+          <a href="#" className="text-xl font-bold text-gray-500 hover:text-gray-400">Ikuti kami</a>
+          <p className="py-2 text-gray-500 sm:py-0">@cveleganprima</p>
         </div>
       </footer>
     </div>
