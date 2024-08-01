@@ -3,8 +3,8 @@ export default function sitemap() {
     {
         url: 'https://epm-three.vercel.app',
         lastModified: new Date(),
-        changeFrequency: 'yearly',
-        priority: 1,
+        changeFrequency: 'weekly',
+        priority: 0.5
     }
     ]
 }
