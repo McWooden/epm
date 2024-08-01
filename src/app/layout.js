@@ -16,7 +16,23 @@ export const metadata = {
   },
   verification: {
     google: 'Ugfk2Cb-kOIM3mlmaDR8nkUXt8kp4VOZ3_OPGroqQi8',
-  }
+  },
+  openGraph: {
+    title: 'Event organizer dan Biro Perjalanan Wisata Jawa Tengah',
+    description: 'Event organizer dan Biro Perjalanan Wisata Jawa Tengah',
+    url: 'https://epm-three.vercel.app',
+    siteName: 'CV Elegan Prima Magelang',
+    images: [
+      {
+        url: 'https://epm-three.vercel.app/opengraph.png', // Must be an absolute URL
+        width: 800,
+        height: 600,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+
 };
 
 export default function RootLayout({ children }) {
