@@ -16,7 +16,7 @@ export const metadata = {
   },
   verification: {
     google: 'Ugfk2Cb-kOIM3mlmaDR8nkUXt8kp4VOZ3_OPGroqQi8',
-  },
+  }
 };
 
 export default function RootLayout({ children }) {
