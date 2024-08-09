@@ -96,7 +96,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="w-full h-64 md:mx-4 rounded-md overflow-hidden bg-cover bg-center md:w-1/2"  style={{backgroundImage: "url(https://images.unsplash.com/photo-1547949003-9792a18a2601?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80)"}}>
+            <div className="w-full h-72 md:mx-4 rounded-md overflow-hidden bg-cover bg-center md:w-1/2"  style={{backgroundImage: "url(https://images.unsplash.com/photo-1547949003-9792a18a2601?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80)"}}>
               <div className="bg-gray-900 bg-opacity-50 flex items-center h-full">
                 <div className="px-10 max-w-xl">
                   <h2 className="text-2xl text-white font-semibold">Wisata Antar Pulau</h2>
