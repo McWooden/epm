@@ -11,9 +11,9 @@ export default function Home() {
               </svg>
               <span className="mx-1 text-sm">Magelang</span>
             </div>
-            <div className="w-full text-gray-700 md:text-center text-2xl font-semibold">
+            <h1 className="w-full text-gray-700 md:text-center text-2xl font-semibold">
               CV Elegan Prima Mandiri
-            </div>
+            </h1>
             <div className="flex items-center justify-end w-full">
               <button className="text-gray-600 focus:outline-none mx-4 sm:mx-0">
                 <svg className="h-5 w-5" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
@@ -55,7 +55,7 @@ export default function Home() {
       <main className="my-8 flex-grow">
         <div className="container mx-auto px-6">
           {/* Hero section */}
-          <div className="h-64 rounded-md overflow-hidden bg-cover bg-center" style={{backgroundImage: "url('https://images.unsplash.com/photo-1577655197620-704858b270ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1280&q=144')"}}>
+          <div className="h-72 rounded-md overflow-hidden bg-cover bg-center" style={{backgroundImage: "url('https://images.unsplash.com/photo-1577655197620-704858b270ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1280&q=144')"}}>
             <div className="bg-gray-900 bg-opacity-50 flex items-center h-full">
               <div className="px-10 max-w-xl">
                 <h2 className="text-2xl text-white font-semibold">Sewa Hiace</h2>
@@ -67,8 +67,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="md:flex mt-8 md:-mx-4">
-            <div  className="w-full h-64 mt-8 md:mx-4 rounded-md overflow-hidden bg-cover bg-center md:mt-0 md:w-1/2" style={{backgroundImage: "url(https://images.unsplash.com/photo-1486401899868-0e435ed85128?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)"}}>
+          <div className="flex flex-col md:flex-row mt-8 md:-mx-4 gap-2">
+            <div  className="w-full h-72 mt-8 md:mx-4 rounded-md overflow-hidden bg-cover bg-center md:mt-0 md:w-1/2" style={{backgroundImage: "url(https://images.unsplash.com/photo-1547949003-9792a18a2601?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80)"}}>
               <div className="bg-gray-900 bg-opacity-50 flex items-center h-full">
                 <div className="px-10 max-w-xl">
                   <h2 className="text-2xl text-white font-semibold">Outbound</h2>
@@ -82,7 +82,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="w-full h-64 md:mx-4 rounded-md overflow-hidden bg-cover bg-center md:w-1/2"  style={{backgroundImage: "url(https://images.unsplash.com/photo-1547949003-9792a18a2601?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80)"}}>
+            <div className="w-full h-72 md:mx-4 rounded-md overflow-hidden bg-cover bg-center md:w-1/2"  style={{backgroundImage: "url(https://images.unsplash.com/photo-1547949003-9792a18a2601?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80)"}}>
               <div className="bg-gray-900 bg-opacity-50 flex items-center h-full">
                 <div className="px-10 max-w-xl">
                   <h2 className="text-2xl text-white font-semibold">Open trip Bromo</h2>
@@ -96,58 +96,20 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
-          
-
-          {/* Featured sections */}
-          <div className="flex flex-wrap mt-8 md:-mx-4">
-            {/* Add your featured sections here */}
-            <h3>CV Elegan Prima</h3>
-            <h3>Priyo Oemar Bakrie</h3>
-            <h3>Biro Perjalanan Wisata Magelang</h3>
-            <h3>Outbound Magelang</h3>
-            <h3>Capacity Building Magelang</h3>
-            <h3>Character Building Magelang</h3>
-            <h3>Leadership Training Magelang</h3>
-            <h3>Fungame Magelang</h3>
-            <h3>Event Organizer Magelang</h3>
-            <h3>Artis Management Magelang</h3>
-            <h3>Wedding Organizer Magelang</h3>
-            <h3>Rent Car Magelang</h3>
-            <h3>Harga Sewa Mobil Magelang</h3>
-            <h3>Outbound Jogja</h3>
-            <h3>Outbound Semarang</h3>
-            <h3>Outbound Solo</h3>
-            <h3>Paket Wisata Bromo</h3>
-            <h3>Paket Wisata Gunung Bromo</h3>
-            <h3>Tour Gunung Bromo</h3>
-            <h3>Sunrise Point Bromo</h3>
-            <h3>Bukit Teletabis Bromo</h3>
-            <h3>Pasir Berbisik Bromo</h3>
-            <h3>Padang Savana Bromo</h3>
-            <h3>Hiace Sewa Magelang</h3>
-            <h3>Tiket Wisata Bromo</h3>
-            <h3>Jeep Wisata Bromo</h3>
-            <h3>Tour Leader Bromo</h3>
-            <h3>Dokumentasi Wisata Bromo</h3>
-            <h3>Foto Video Drone Bromo</h3>
-            <h3>Makan di Bromo</h3>
-            <h3>Meeting Point Bromo</h3>
-            <h3>Rest Area Sekar Pajang</h3>
-            <h3>Terminal Salaman</h3>
-            <h3>Teseh Tempuran Pakelan</h3>
-            <h3>Artos</h3>
-            <h3>PMI Muntilan</h3>
-            <h3>Fly Over Jombor</h3>
-            <h3>Paket Wisata Murah Bromo</h3>
-            <h3>Biro Wisata Terbaik Magelang</h3>
-            <h3>Rental Mobil Jogja</h3>
-            <h3>Rental Mobil Semarang</h3>
-            <h3>Rental Mobil Solo</h3>
-            <h3>Jasa Event Organizer Magelang</h3>
-            <h3>Jasa Wedding Organizer Magelang</h3>
-            <h3>Manajemen Artis Magelang</h3>
-
+            <div className="w-full h-64 md:mx-4 rounded-md overflow-hidden bg-cover bg-center md:w-1/2"  style={{backgroundImage: "url(https://images.unsplash.com/photo-1547949003-9792a18a2601?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80)"}}>
+              <div className="bg-gray-900 bg-opacity-50 flex items-center h-full">
+                <div className="px-10 max-w-xl">
+                  <h2 className="text-2xl text-white font-semibold">Wisata Antar Pulau</h2>
+                  <p className="mt-2 text-gray-400">Wisata Antar Pulau ke Bali, Lombok, Toba dll, harga tercatum menyesuaikan dengan lokasi kunjungan dan transportasi yang digunakan.</p>
+                  <button className="flex items-center mt-4 text-white text-sm uppercase font-medium rounded hover:underline focus:outline-none">
+                    <span>Shop Now</span>
+                    <svg className="h-5 w-5 mx-2" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+                      <path d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Product sections */}
@@ -219,18 +181,65 @@ export default function Home() {
       </main>
 
       <footer className="bg-gray-200 mt-auto">
-        <div className="container mx-auto px-6 py-3 flex justify-between items-center">
+        <div className="container mx-auto px-6 py-3 flex justify-between items-center flex-col sm:flex-row">
           <a href="#" className="text-xl font-bold text-gray-500 hover:text-gray-400">&copy; CV Elegan Prima Mandiri</a>
           <p className="py-2 text-gray-500 sm:py-0">Monglong Margoyoso Salaman Magelang</p>
         </div>
-        <div className="container mx-auto px-6 py-3 flex justify-between items-center">
+        <div className="container mx-auto px-6 py-3 flex justify-between items-center flex-col sm:flex-row">
           <a href="#" className="text-xl font-bold text-gray-500 hover:text-gray-400">eleganprimamandiri@gmail.com</a>
           <p className="py-2 text-gray-500 sm:py-0">+62 813 2929 5252</p>
         </div>
-        <div className="container mx-auto px-6 py-3 flex justify-between items-center">
+        <div className="container mx-auto px-6 py-3 flex justify-between items-center flex-col sm:flex-row">
           <a href="#" className="text-xl font-bold text-gray-500 hover:text-gray-400">Ikuti kami</a>
           <p className="py-2 text-gray-500 sm:py-0">@cveleganprima</p>
         </div>
+        <div className="container mx-auto px-6 py-3 flex flex-wrap items-center gap-2 text-gray-500 text-sm">
+            <h3>CV Elegan Prima</h3>
+            <h3>Priyo Oemar Bakrie</h3>
+            <h3>Biro Perjalanan Wisata Magelang</h3>
+            <h3>Outbound Magelang</h3>
+            <h3>Capacity Building Magelang</h3>
+            <h3>Character Building Magelang</h3>
+            <h3>Leadership Training Magelang</h3>
+            <h3>Fungame Magelang</h3>
+            <h3>Event Organizer Magelang</h3>
+            <h3>Artis Management Magelang</h3>
+            <h3>Wedding Organizer Magelang</h3>
+            <h3>Rent Car Magelang</h3>
+            <h3>Harga Sewa Mobil Magelang</h3>
+            <h3>Outbound Jogja</h3>
+            <h3>Outbound Semarang</h3>
+            <h3>Outbound Solo</h3>
+            <h3>Paket Wisata Bromo</h3>
+            <h3>Paket Wisata Gunung Bromo</h3>
+            <h3>Tour Gunung Bromo</h3>
+            <h3>Sunrise Point Bromo</h3>
+            <h3>Bukit Teletabis Bromo</h3>
+            <h3>Pasir Berbisik Bromo</h3>
+            <h3>Padang Savana Bromo</h3>
+            <h3>Hiace Sewa Magelang</h3>
+            <h3>Tiket Wisata Bromo</h3>
+            <h3>Jeep Wisata Bromo</h3>
+            <h3>Tour Leader Bromo</h3>
+            <h3>Dokumentasi Wisata Bromo</h3>
+            <h3>Foto Video Drone Bromo</h3>
+            <h3>Makan di Bromo</h3>
+            <h3>Meeting Point Bromo</h3>
+            <h3>Rest Area Sekar Pajang</h3>
+            <h3>Terminal Salaman</h3>
+            <h3>Teseh Tempuran Pakelan</h3>
+            <h3>Artos</h3>
+            <h3>PMI Muntilan</h3>
+            <h3>Fly Over Jombor</h3>
+            <h3>Paket Wisata Murah Bromo</h3>
+            <h3>Biro Wisata Terbaik Magelang</h3>
+            <h3>Rental Mobil Jogja</h3>
+            <h3>Rental Mobil Semarang</h3>
+            <h3>Rental Mobil Solo</h3>
+            <h3>Jasa Event Organizer Magelang</h3>
+            <h3>Jasa Wedding Organizer Magelang</h3>
+            <h3>Manajemen Artis Magelang</h3>
+          </div>
       </footer>
     </div>
   );
