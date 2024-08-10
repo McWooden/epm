@@ -5,7 +5,7 @@ import Head from "next/head";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  metadataBase: new URL('https://epm-three.vercel.app'),
+  metadataBase: new URL('https://cveleganprimamandiri.vercel.app'),
   title: {
     template: "%s - Event organizer dan Biro Perjalanan Wisata Jawa Tengah",
     default: "Event organizer dan Biro Perjalanan Wisata Jawa Tengah",
