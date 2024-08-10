@@ -24,7 +24,7 @@ export const metadata = {
     siteName: 'CV Elegan Prima Magelang',
     images: [
       {
-        url: 'https://epm-three.vercel.app/opengraph.png', // Must be an absolute URL
+        url: 'https://cveleganprimamandiri.vercel.app/opengraph.png', // Must be an absolute URL
         width: 800,
         height: 600,
       },
