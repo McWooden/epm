@@ -197,6 +197,10 @@ export default function Home() {
             <h3>CV Elegan Prima</h3>
             <h3>Priyo Oemar Bakrie</h3>
             <h3>Biro Perjalanan Wisata Magelang</h3>
+            <h3>Sewa Hiace</h3>
+            <h3>Outbound</h3>
+            <h3>Open trip Bromo</h3>
+            <h3>Wisata Antar Pulau</h3>
             <h3>Outbound Magelang</h3>
             <h3>Capacity Building Magelang</h3>
             <h3>Character Building Magelang</h3>
