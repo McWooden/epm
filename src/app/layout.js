@@ -16,6 +16,7 @@ export const metadata = {
   },
   verification: {
     google: '0bnyGuaAqU-zkZ2N1LfxNlG_8MEk-pHuzJsYbtuk6nM',
+    seobility: '8f913b529fd27a93539c4f970ab452b1'
   },
   openGraph: {
     title: 'Event organizer dan Biro Perjalanan Wisata Jawa Tengah',
