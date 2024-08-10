@@ -19,7 +19,7 @@ export const metadata = {
   },
   openGraph: {
     title: 'Event organizer dan Biro Perjalanan Wisata Jawa Tengah',
-    description: 'Event organizer dan Biro Perjalanan Wisata Jawa Tengah',
+    description: 'Ahli dalam Event Organizer dan Biro Perjalanan Wisata',
     url: 'https://cveleganprimamandiri.vercel.app',
     siteName: 'CV Elegan Prima Magelang',
     images: [
