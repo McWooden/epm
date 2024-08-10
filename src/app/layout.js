@@ -20,7 +20,7 @@ export const metadata = {
   openGraph: {
     title: 'Event organizer dan Biro Perjalanan Wisata Jawa Tengah',
     description: 'Event organizer dan Biro Perjalanan Wisata Jawa Tengah',
-    url: 'https://epm-three.vercel.app',
+    url: 'https://cveleganprimamandiri.vercel.app',
     siteName: 'CV Elegan Prima Magelang',
     images: [
       {
