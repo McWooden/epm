@@ -14,5 +14,20 @@ export default function manifest() {
           type: 'image/x-icon',
         },
       ],
+      openGraph: {
+        title: 'Event organizer dan Biro Perjalanan Wisata Jawa Tengah',
+        description: 'Ahli dalam Event Organizer dan Biro Perjalanan Wisata',
+        url: 'https://cveleganprimamandiri.vercel.app',
+        siteName: 'CV Elegan Prima Magelang',
+        images: [
+          {
+            url: 'https://cveleganprimamandiri.vercel.app/opengraph.png', // Must be an absolute URL
+            width: 800,
+            height: 600,
+          },
+        ],
+        locale: 'en_US',
+        type: 'website',
+      },
     }
   }
