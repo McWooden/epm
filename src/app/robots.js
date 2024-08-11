@@ -5,6 +5,6 @@ export default function robots() {
             allow: '/',
             disallow: '/private/',
         },
-        sitemap: 'https://epm-three.vercel.app/sitemap.xml',
+        sitemap: 'https://cveleganprimamandiri.vercel.app/sitemap.xml',
     }
 }
