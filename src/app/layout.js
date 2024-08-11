@@ -10,7 +10,7 @@ export const metadata = {
     template: "%s - Event organizer dan Biro Perjalanan Wisata Jawa Tengah",
     default: "Event organizer dan Biro Perjalanan Wisata Jawa Tengah",
   },
-  description: "Ahli dalam Event Organizer dan Biro Perjalanan Wisata",
+  description: "Ahli dalam Event Organizer dan Biro Perjalanan Wisata, CV Elegan Prima Mandiri, Priyo Oemar Bakrie, Biro Perjalanan Wisata Magelang, Sewa Hiace, Outbound, Open trip Bromo, Wisata Antar Pulau",
   twitter: {
     card: 'summary_large_image'
   },
@@ -21,10 +21,16 @@ export const metadata = {
   other: {
     seobility: '8f913b529fd27a93539c4f970ab452b1'
   },
+  icons: {
+    icon: '/icon.png',
+    shortcut: '/icon.png',
+    apple: '/apple-icon.png',
+  },
+
   keywords: ['Next.js', 'React', 'JavaScript'],
   openGraph: {
     title: 'Event organizer dan Biro Perjalanan Wisata Jawa Tengah',
-    description: 'Ahli dalam Event Organizer dan Biro Perjalanan Wisata',
+    description: 'Ahli dalam Event Organizer dan Biro Perjalanan Wisata, CV Elegan Prima Mandiri, Priyo Oemar Bakrie, Biro Perjalanan Wisata Magelang, Sewa Hiace, Outbound, Open trip Bromo, Wisata Antar Pulau',
     url: 'https://cveleganprimamandiri.vercel.app',
     siteName: 'CV Elegan Prima Magelang',
     images: [
@@ -34,7 +40,7 @@ export const metadata = {
         height: 600,
       },
     ],
-    locale: 'en_US',
+    locale: 'id_ID',
     type: 'website',
   },
 
