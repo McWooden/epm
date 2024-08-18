@@ -1,4 +1,4 @@
-import Templet from "../components/templet"
+import Templet from "../components/Templet"
 
 export const metadata = {
     title: 'cveleganprima',
