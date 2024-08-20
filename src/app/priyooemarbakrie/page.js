@@ -4,6 +4,6 @@ export const metadata = {
     title: 'Priyo Oemar Bakrie',
 }
 
-export default function CvEleganPrimaMandiri() {
+export default function PriyoOemarBakrie() {
   return <Templet/>
 }

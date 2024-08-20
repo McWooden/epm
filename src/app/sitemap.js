@@ -18,5 +18,11 @@ export default function sitemap() {
         changeFrequency: 'yearly',
         priority: 0.8
     },
+    {
+        url: 'https://cveleganprimamandiri.vercel.app/priyooemarbakrie',
+        lastModified: new Date(),
+        changeFrequency: 'yearly',
+        priority: 0.8
+    },
     ]
 }
