@@ -6,10 +6,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   metadataBase: new URL('https://cveleganprimamandiri.vercel.app'),
-  title: {
-    template: "%s - Event organizer dan Biro Perjalanan Wisata Jawa Tengah",
-    default: "Event organizer dan Biro Perjalanan Wisata Jawa Tengah",
-  },
+  // title: {
+  //   template: "%s - cveleganprima",
+  //   default: "Event organizer dan Biro Perjalanan Wisata Jawa Tengah",
+  // },
+  title: "Event organizer dan Biro Perjalanan Wisata Jawa Tengah",
   description: "Ahli dalam Event Organizer dan Biro Perjalanan Wisata, CV Elegan Prima Mandiri, Priyo Oemar Bakrie, Biro Perjalanan Wisata Magelang, Sewa Hiace, Outbound, Open trip Bromo, Wisata Antar Pulau",
   twitter: {
     card: 'summary_large_image'
