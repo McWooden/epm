@@ -91,7 +91,9 @@ export default function RootLayout({ children }) {
             </nav> */}
           </div>
         </header>
-        {children}
+        <main className="flex flex-col bg-white my-8 flex-grow">
+          {children}
+        </main>
         <footer className="bg-gray-200 mt-auto">
           <div className="container mx-auto px-6 py-3 flex justify-between items-center flex-col sm:flex-row">
             <a href="#" className="text-xl font-bold text-gray-500 hover:text-gray-400">&copy; CV Elegan Prima Mandiri</a>
