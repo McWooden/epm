@@ -1,21 +1,16 @@
+import Link from "next/link";
+import CardLarge from "./CardLarge";
+
 export default function Templet() {
     return (
         <div className="container mx-auto px-6">
             {/* Hero section */}
-            <div className="h-72 rounded-md overflow-hidden bg-cover bg-center" style={{backgroundImage: `url(/assets/sewa-hiace.jpg)`}}>
-                <div className="bg-gray-900 bg-opacity-50 flex items-center h-full">
-                    <div className="px-10 max-w-xl">
-                        <h2 className="text-2xl text-white font-semibold">Sewa Hiace</h2>
-                        <p className="mt-2 text-gray-400">Harga sewa lokal dan luar kota berbadan hubungi kami untuk harga terbaik.</p>
-                        <a href="https://wa.me/6281329295252" className="flex items-center mt-4 px-3 py-2 bg-blue-600 text-white text-sm uppercase font-medium rounded hover:bg-blue-500 focus:outline-none focus:bg-blue-500 w-fit">
-                            <span>Pesan sekarang</span>
-                            <svg className="h-5 w-5 mx-2" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div className="flex flex-col md:flex-row my-8 md:-mx-4 gap-2">
-                <div className="w-full h-72 md:mx-4 rounded-md overflow-hidden bg-cover bg-center md:w-1/2"  style={{backgroundImage: `url(/assets/open-trip.jpg)`}}>
+            {/* <Link href={'/produk/sewa-hiace'}> */}
+                <CardLarge path='sewa-hiace'/>
+            {/* </Link> */}
+            <div className="flex flex-col md:flex-row my-8 gap-2">
+                {/* h-72 rounded-md overflow-hidden bg-cover bg-center */}
+                {/* <div className="w-full h-72 md:mx-4 rounded-md overflow-hidden bg-cover bg-center md:w-1/2"  style={{backgroundImage: `url(/assets/open-trip.jpg)`}}>
                     <div className="bg-gray-900 bg-opacity-50 flex items-center h-full">
                         <div className="px-10 max-w-xl">
                             <h2 className="text-2xl text-white font-semibold">Open trip Bromo</h2>
@@ -28,34 +23,11 @@ export default function Templet() {
                             </a>
                         </div>
                     </div>
-                </div>
-                <div className="w-full h-72 md:mx-4 rounded-md overflow-hidden bg-cover bg-center md:w-1/2"  style={{backgroundImage: `url(/assets/antar-pulau.jpg)`}}>
-                    <div className="bg-gray-900 bg-opacity-50 flex items-center h-full">
-                        <div className="px-10 max-w-xl">
-                            <h2 className="text-2xl text-white font-semibold">Wisata Antar Pulau</h2>
-                            <p className="mt-2 text-gray-400">Wisata Antar Pulau ke Bali, Lombok, Toba dll, harga tercatum menyesuaikan dengan lokasi kunjungan dan transportasi yang digunakan.</p>
-                            <a href="https://wa.me/6281329295252" className="flex items-center mt-4 px-3 py-2 bg-blue-600 text-white text-sm uppercase font-medium rounded hover:bg-blue-500 focus:outline-none focus:bg-blue-500 w-fit">
-                                <span>Pesan sekarang</span>
-                                <svg className="h-5 w-5 mx-2" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
-                                <path d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                </div> */}
+                <CardLarge path='open-trip-bromo' className="flex-1"/>
+                <CardLarge path='antar-pulau' className="flex-1"/>
             </div>
-            <div className="h-72 rounded-md overflow-hidden bg-cover bg-center" style={{backgroundImage: `url(/assets/outbound.jpg)`}}>
-                <div className="bg-gray-900 bg-opacity-50 flex items-center h-full">
-                    <div className="px-10 max-w-xl">
-                        <h2 className="text-2xl text-white font-semibold">Outbound</h2>
-                        <p className="mt-2 text-gray-400">Outbound, capacity building, character building, leadership, fungame. Lokasi bisa memilih wilayah Magelang, Jogja, Semarang, Solo dll. Harga menyesuaikan jenis kegiatan, alat serta lokasi.</p>
-                        <a href="https://wa.me/6281329295252" className="flex items-center mt-4 px-3 py-2 bg-blue-600 text-white text-sm uppercase font-medium rounded hover:bg-blue-500 focus:outline-none focus:bg-blue-500 w-fit">
-                        <span>Pesan sekarang</span>
-                        <svg className="h-5 w-5 mx-2" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
+            <CardLarge path='outbound'/>
 
             {/* Product sections */}
             <div className="mt-16">

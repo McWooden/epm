@@ -1,8 +1,12 @@
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import Head from "next/head";
+import Link from "next/link";
 
-const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"]
+});
 
 export const metadata = {
   metadataBase: new URL('https://cveleganprimamandiri.vercel.app'),
@@ -65,8 +69,8 @@ export default function RootLayout({ children }) {
       <Head>
         <meta name="google-site-verification" content="Ugfk2Cb-kOIM3mlmaDR8nkUXt8kp4VOZ3_OPGroqQi8" />
       </Head>
-      <body className={inter.className}>
-        <header>
+      <body className={`${poppins.className} flex flex-col`}>
+        <header className="py-6">
           <div className="container mx-auto px-6 py-3">
             <div className="flex items-center justify-between">
               <div className="hidden w-full text-gray-600 md:flex md:items-center">
@@ -76,9 +80,11 @@ export default function RootLayout({ children }) {
                 </svg>
                 <span className="mx-1 text-sm">Magelang</span>
               </div>
-              <h1 className="w-full text-gray-700 md:text-center text-2xl font-semibold">
-                CV Elegan Prima Mandiri
-              </h1>
+              <Link href={'/'} className="w-full">
+                <h1 className="w-full text-gray-700 md:text-center text-2xl font-semibold">
+                  CV Elegan Prima Mandiri
+                </h1>
+              </Link>
               <div className="flex items-center justify-end w-full">
                 <button className="text-gray-600 focus:outline-none mx-4 sm:mx-0">
                   <svg className="h-5 w-5" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
@@ -102,22 +108,22 @@ export default function RootLayout({ children }) {
             </nav> */}
           </div>
         </header>
-        <main className="flex flex-col bg-white my-8 flex-grow">
+        <main className="flex flex-col bg-white my-8 flex-grow flex-1">
           {children}
         </main>
-        <footer className="bg-gray-200 mt-auto">
+        <footer className="bg-gray-200 mt-auto py-6">
           <div className="container mx-auto px-6 py-3 flex justify-between items-center flex-col sm:flex-row">
-            <a href="#" className="text-xl font-bold text-gray-500 hover:text-gray-400">&copy; CV Elegan Prima Mandiri</a>
-            <p className="py-2 text-gray-500 sm:py-0">Monglong Margoyoso Salaman Magelang</p>
+            <p className="text-xl font-bold text-gray-500 hover:text-gray-400">&copy; CV Elegan Prima Mandiri</p>
+            <p className="py-2 text-gray-500 sm:py-0 text-center">Monglong Margoyoso Salaman Magelang</p>
           </div>
-          <div className="container mx-auto px-6 py-3 flex justify-between items-center flex-col sm:flex-row">
-            <a href="#" className="text-xl font-bold text-gray-500 hover:text-gray-400">eleganprimamandiri@gmail.com</a>
+          <a href="https://wa.me/6281329295252" className="container mx-auto px-6 py-3 flex justify-between items-center flex-col sm:flex-row group">
+            <p className="text-xl font-bold text-gray-500 group-hover:text-gray-400">eleganprimamandiri@gmail.com</p>
             <p className="py-2 text-gray-500 sm:py-0">+62 813 2929 5252</p>
-          </div>
-          <div className="container mx-auto px-6 py-3 flex justify-between items-center flex-col sm:flex-row">
-            <a href="#" className="text-xl font-bold text-gray-500 hover:text-gray-400">Ikuti kami</a>
+          </a>
+          <a href="https://www.instagram.com/cveleganprima" className="container mx-auto px-6 py-3 flex justify-between items-center flex-col sm:flex-row group">
+            <p className="text-xl font-bold text-gray-500 group-hover:text-gray-400">Ikuti kami</p>
             <p className="py-2 text-gray-500 sm:py-0">@cveleganprima</p>
-          </div>
+          </a>
           <div className="container mx-auto px-6 py-3 flex flex-wrap items-center gap-2 text-gray-500 text-sm">
               <h3>CV Elegan Prima</h3>
               <h3>Priyo Oemar Bakrie</h3>
