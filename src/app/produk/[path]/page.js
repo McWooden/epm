@@ -16,7 +16,7 @@ export default function Page({params}) {
     console.log(data.image[0])
 
     return <div className="container mx-auto px-6 flex flex-col gap-6">
-        <div className="flex gap-2 px-6">
+        <div className="flex gap-2">
             <Image src={data.image[0]} alt="icon" width={200} height={250} className="rounded w-36 mr-auto flex-1"/>
             <div className="flex flex-col gap-1 flex-[2_2_0%] px-2">
                 <h3 className="font-semibold text-lg">{data.title}</h3>
