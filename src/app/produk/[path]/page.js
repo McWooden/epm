@@ -2,18 +2,25 @@ import { findProductByPath } from "@/app/utils"
 import { HiOutlineTicket } from "react-icons/hi2";
 import { FaStar } from "react-icons/fa6";
 import Image from "next/image"
-import Link from "next/link";
+
+export async function generateMetadata({ params }) {
+    // read route params
+    const path = params.path
+
+    // fetch data
+    const product = findProductByPath(path)
+
+    return {
+        title: `${product.title} | cveleganprima`,
+    }
+}
 
 export default function Page({params}) {
-    // const router = useRouter()
-    // console.log(router.query)
     const data = findProductByPath(params.path)
 
     if (!data) return <div>
         <p>Produk tidak ditemukan!</p>
     </div>
-
-    console.log(data.image[0])
 
     return <div className="container mx-auto px-6 flex flex-col gap-6">
         <div className="flex gap-2">
