@@ -38,16 +38,19 @@ export default function Page({params}) {
                 <span className="text-xs">Hari</span>
             </div>
         </div>
-        <div className="flex flex-col gap-y-2">
-            <Link href="https://wa.me/6281329295252" className="flex items-center px-3 py-2 bg-blue-600 text-white text-sm justify-center font-medium rounded-lg hover:bg-blue-500 focus:outline-none focus:bg-blue-500 w-full">
-                <span>{data.price}</span>
-            </Link>
+        <div className="flex gap-2">
+            <div className="border border-blue-600 flex-1 text-blue-600 flex justify-center items-center rounded-lg">
+                {data.price}
+            </div>
+            <a href="https://wa.me/6281329295252" className="flex flex-1 items-center px-3 py-2 bg-blue-600 text-white text-sm justify-center font-medium rounded-lg hover:bg-blue-500 focus:outline-none focus:bg-blue-500 w-full">
+                <span>Pesan sekarang</span>
+            </a>
         </div>
         <div>
             <h3 className="font-semibold text-lg">Tentang Tiket ini</h3>
             <p className="text-xs">{data.description}</p>
         </div>
-        <div className="flex gap-2 overflow-x-auto py-4">
+        <div className="flex gap-2 overflow-x-auto py-4 items-center">
             {data.image.map((url, i) => (
                 <div key={i} className="relative">
                     <Image
@@ -55,7 +58,7 @@ export default function Page({params}) {
                         alt={`Image ${i + 1}`}
                         width={500}
                         height={500}
-                        className="rounded-md object-contain h-60"
+                        className="rounded-md object-contain max-w-60"
                     />
                 </div>
             ))}
