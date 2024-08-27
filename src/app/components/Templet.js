@@ -1,9 +1,12 @@
-import Link from "next/link";
 import CardLarge from "./CardLarge";
+import Contact from "./Contact";
+import Jumbotron from "./Jumbotron";
 
 export default function Templet() {
     return (
-        <div className="container mx-auto px-6">
+        <>
+        <Jumbotron/>
+        <div className="container mx-auto my-8 px-6">
             {/* Hero section */}
             {/* <Link href={'/produk/sewa-hiace'}> */}
                 <CardLarge path='sewa-hiace'/>
@@ -27,7 +30,7 @@ export default function Templet() {
                 <CardLarge path='open-trip-bromo' className="flex-1"/>
                 <CardLarge path='antar-pulau' className="flex-1"/>
             </div>
-            <CardLarge path='outbound'/>
+            <CardLarge path='outbound' className="appear"/>
 
             {/* Product sections */}
             <div className="mt-16">
@@ -92,6 +95,8 @@ export default function Templet() {
                     </div>
                 </div>
             {/* You can add more sections as needed */}
+            <Contact/>
         </div>
+        </>
     )
 }
