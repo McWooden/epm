@@ -31,7 +31,7 @@ export default function Page({params}) {
                 <p className="opacity-90 text-xs">Mas Priyok</p>
             </div>
         </div>
-        <div className="flex justify-between gap-2 px-6">
+        <div className="flex justify-around gap-2 px-6 shadow-xl rounded-xl py-6">
             <div className="flex flex-col gap-2 justify-center items-center">
                 <span className="flex text-sm gap-1 items-center">4,7 <FaStar /></span>
                 <span className="text-xs">256 ulasan</span>
