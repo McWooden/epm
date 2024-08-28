@@ -22,7 +22,7 @@ export default function Page({params}) {
         <p>Produk tidak ditemukan!</p>
     </div>
 
-    return <div className="container mx-auto px-6 flex flex-col gap-6">
+    return <div className="container mx-auto p-6 flex flex-col gap-6">
         <div className="flex gap-2">
             <Image src={data.image[0]} alt="icon" width={200} height={250} className="rounded w-36 mr-auto flex-1"/>
             <div className="flex flex-col gap-1 flex-[2_2_0%] px-2">
@@ -49,7 +49,7 @@ export default function Page({params}) {
             <div className="border border-blue-600 flex-1 text-blue-600 flex justify-center items-center rounded-lg">
                 {data.price}
             </div>
-            <a href="https://wa.me/6281329295252" className="flex flex-1 items-center px-3 py-2 bg-blue-600 text-white text-sm justify-center font-medium rounded-lg hover:bg-blue-500 focus:outline-none focus:bg-blue-500 w-full">
+            <a href={`https://wa.me/6281329295252?text=${`Hai Pak Priyo, saya tertarik dengan ${data.title}. Apakah masih tersedia?`.split(' ').join('%20')}`} className="flex flex-1 items-center px-3 py-2 bg-blue-600 text-white text-sm justify-center font-medium rounded-lg hover:bg-blue-500 focus:outline-none focus:bg-blue-500 w-full">
                 <span>Pesan sekarang</span>
             </a>
         </div>

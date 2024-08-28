@@ -4,7 +4,7 @@ export const products = [
         path: 'sewa-hiace',
         description: 'Harga sewa lokal dan luar kota berbadan hubungi kami untuk harga terbaik.',
         price: 'Rp 1.000.000',
-        image: ['/assets/sewa-hiace.jpg', '/assets/other/sewa-hiace-2.jpg', '/assets/other/sewa-hiace-3.jpg', '/assets/other/sewa-hiace-4.jpg']
+        image: ['/assets/sewa-hiace.jpg', '/assets/other/sewa-hiace-2.jpg', '/assets/other/sewa-hiace-3.jpg', '/assets/other/sewa-hiace-4.jpg'],
     },
     {
         title: 'Outbound',
@@ -14,7 +14,7 @@ export const products = [
         image: ['/assets/outbound.jpg', '/assets/other/outbound-2.jpg', '/assets/other/outbound-3.jpg', '/assets/other/outbound-4.jpg', '/assets/other/outbound-5.jpg', '/assets/other/outbound-6.jpg', '/assets/other/outbound-7.jpg', '/assets/other/outbound-8.jpg', '/assets/other/outbound-9.jpg', '/assets/other/outbound-10.jpg']
     },
     {
-        title: 'Open trip Bromo',
+        title: 'Open Trip Bromo',
         path: 'open-trip-bromo',
         description: 'Paket dua hari Magelang - Bromo Pulang Pergi.',
         price: 'Rp 650.000',
