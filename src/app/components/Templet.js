@@ -1,6 +1,7 @@
 import CardLarge from "./CardLarge";
 import Contact from "./Contact";
 import Jumbotron from "./Jumbotron";
+import { FaQuoteRight } from "react-icons/fa";
 
 export default function Templet() {
     return (
@@ -31,6 +32,14 @@ export default function Templet() {
                 <CardLarge path='antar-pulau' className="flex-1"/>
             </div>
             <CardLarge path='outbound' className="appear"/>
+
+            <div className="flex gap-2 mt-16 bg-gray-200 p-6">
+                <div className="flex flex-col gap-2">
+                    <p className="text-gray-800 text-2xl font-semibold flex gap-2 flex-wrap">Nikmatilah hari ini, besok kita cari cerita lagi.</p>
+                    <p className="text-gray-600 text-sm">masyok, 7 July 2024.</p>
+                </div>
+                <FaQuoteRight className="text-2xl"/>
+            </div>
 
             {/* Product sections */}
             <div className="mt-16">
