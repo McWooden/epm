@@ -2,6 +2,9 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import Head from "next/head";
 import Link from "next/link";
+import { RiNextjsFill } from "react-icons/ri";
+import { DiVisualstudio } from "react-icons/di";
+import { FaEdge } from "react-icons/fa";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -124,6 +127,14 @@ export default function RootLayout({ children }) {
             <p className="text-xl font-bold text-gray-500 group-hover:text-gray-400">Ikuti kami</p>
             <p className="py-2 text-gray-500 sm:py-0">@cveleganprima</p>
           </a>
+          <div className="flex flex-col gap-2 mx-auto container text-gray-500 px-6 py-3">
+            <p>Terimakasih kepada</p>
+            <div className="flex flex-wrap gap-2">
+              <RiNextjsFill />
+              <DiVisualstudio />
+              <FaEdge />
+            </div>
+          </div>
           <div className="container mx-auto px-6 py-3 flex flex-wrap items-center gap-2 text-gray-500 text-sm">
               <h3>CV Elegan Prima</h3>
               <h3>Priyo Oemar Bakrie</h3>
