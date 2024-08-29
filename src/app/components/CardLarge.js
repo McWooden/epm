@@ -6,7 +6,7 @@ export default function CardLarge({path, className = ''}) {
     if (!data) return <div>{path} tidak ditemukan</div>
     return <Link href={`/produk/${path}`} className={className}>
         <div className="relative flex flex-col rounded-xl shadow group/card mt-16">
-            <div className="p-4 w-fit rounded-t-xl duration-300 absolute -top-12 group-hover/card:-top-14 bg-gradient-to-b from-gray-200 to-gray-200 group-hover/card:to-pink-100">
+            <div className="p-4 w-fit rounded-t-xl duration-300 absolute -top-12 group-hover/card:-top-14 bg-gradient-to-b from-gray-200 to-gray-200 group-hover/card:to-violet-100">
                 <h2 className="text-2xl font-semibold text-gray-800">{data.title}</h2>
             </div>
             <div className={`min-h-72 flex items-center rounded-md overflow-hidden bg-cover bg-center relative bg-gray-200 before:bg-gray-900 before:opacity-80 group-hover/card:before:opacity-50 before:absolute before:inset-0 group-hover/card:shadow-xl ease-in-out before:duration-300 duration-300 hover:z-20`} style={{backgroundImage: `url(${data.image[0]})`}}>
@@ -20,7 +20,8 @@ export default function CardLarge({path, className = ''}) {
                     </div>
                 </div>
             </div>
-            <span className="absolute -bottom-2 right-0 text-sm z-20 text-gray-200 border border-gray-200 rounded-lg p-2 group-hover/card:bg-gray-200 group-hover/card:shadow-lg group-hover/card:text-gray-700 duration-100">{data.price}</span>
+            <span className="absolute -bottom-2 right-0 text-sm z-20 text-gray-200 border border-gray-200 rounded-lg p-2 group-hover/card:bg-violet-100 group-hover/card:border-violet-100 group-hover/card:shadow-lg group-hover/card:text-gray-700 duration-300">{data.price}</span>
+            {/* <span className="absolute -bottom-2 right-0 text-sm z-20 text-gray-200 border border-gray-200 rounded-lg p-2 group-hover/card:bg-gray-200 group-hover/card:shadow-lg group-hover/card:text-gray-700 duration-100">{data.price}</span> */}
         </div>
     </Link>
 }
