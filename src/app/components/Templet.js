@@ -12,7 +12,7 @@ export default function Templet() {
             {/* <Link href={'/produk/sewa-hiace'}> */}
                 <CardLarge path='sewa-hiace'/>
             {/* </Link> */}
-            <div className="flex flex-col md:flex-row my-8 gap-2">
+            <div className="flex flex-col md:flex-row gap-2">
                 {/* h-72 rounded-md overflow-hidden bg-cover bg-center */}
                 {/* <div className="w-full h-72 md:mx-4 rounded-md overflow-hidden bg-cover bg-center md:w-1/2"  style={{backgroundImage: `url(/assets/open-trip.jpg)`}}>
                     <div className="bg-gray-900 bg-opacity-50 flex items-center h-full">
