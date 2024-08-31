@@ -14,8 +14,8 @@ export default function Templet() {
 
             <YoutubeShort/>
 
-            <div id="produk" className="mt-16">
-                <h3 className="text-gray-600 text-2xl font-medium">Produk</h3>
+            <div id="produk">
+                <h3 className="text-gray-600 text-2xl font-medium pt-12">Produk</h3>
                 <div className="flex flex-wrap gap-2 justify-between">
                     <Card path='sewa-hiace'/>
                     <Card path='open-trip-bromo'/>

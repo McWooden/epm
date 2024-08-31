@@ -16,3 +16,27 @@ html, body {
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
 }
+
+/* Container with background image */
+.background-animation {
+    background-image: url('/assets/header-img.png');
+    background-repeat: repeat-x; /* Repeat the background horizontally */
+    background-position: 0 0;
+    background-size: cover; /* Adjust the size as needed */
+    
+    /* Apply the animation */
+    animation: moveBackground 240s linear infinite;
+}
+
+/* Define the keyframes for the animation */
+@keyframes moveBackground {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}

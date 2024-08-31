@@ -6,7 +6,7 @@ import { FaTiktok } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 
 export default function Contact() {
-    return <div id="kontak" className="pt-16">
+    return <div id="kontak" className="pt-12">
         <h3 className="text-gray-600 text-2xl font-medium">Kontak</h3>
         <div className="flex flex-col gap-2 mt-6 flex-wrap">
             <div className="flex gap-2 flex-col sm:flex-row">
