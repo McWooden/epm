@@ -84,7 +84,7 @@ export default function RootLayout({ children }) {
                 <span className="mx-1 text-sm">Magelang</span>
               </div>
               <Link href={'/'} className="w-full">
-                <h1 className="w-full text-gray-700 md:text-center text-2xl font-semibold">
+                <h1 className="w-full text-gray-700 md:text-center text-2xl font-semibold hover:text-600">
                   CV Elegan Prima Mandiri
                 </h1>
               </Link>
@@ -135,59 +135,59 @@ export default function RootLayout({ children }) {
               <FaEdge />
             </div>
           </div>
-          <div className="container mx-auto px-6 py-3 flex flex-wrap items-center gap-2 text-gray-500 text-sm">
-              <h3>CV Elegan Prima</h3>
-              <h3>Priyo Oemar Bakrie</h3>
-              <h3>Biro Perjalanan Wisata Magelang</h3>
-              <h3>Sewa Hiace</h3>
-              <h3>Outbound</h3>
-              <h3>Open trip Bromo</h3>
-              <h3>Wisata Antar Pulau</h3>
-              <h3>Outbound Magelang</h3>
-              <h3>Capacity Building Magelang</h3>
-              <h3>Character Building Magelang</h3>
-              <h3>Leadership Training Magelang</h3>
-              <h3>Fungame Magelang</h3>
-              <h3>Event Organizer Magelang</h3>
-              <h3>Artis Management Magelang</h3>
-              <h3>Wedding Organizer Magelang</h3>
-              <h3>Rent Car Magelang</h3>
-              <h3>Harga Sewa Mobil Magelang</h3>
-              <h3>Outbound Jogja</h3>
-              <h3>Outbound Semarang</h3>
-              <h3>Outbound Solo</h3>
-              <h3>Paket Wisata Bromo</h3>
-              <h3>Paket Wisata Gunung Bromo</h3>
-              <h3>Tour Gunung Bromo</h3>
-              <h3>Sunrise Point Bromo</h3>
-              <h3>Bukit Teletabis Bromo</h3>
-              <h3>Pasir Berbisik Bromo</h3>
-              <h3>Padang Savana Bromo</h3>
-              <h3>Hiace Sewa Magelang</h3>
-              <h3>Tiket Wisata Bromo</h3>
-              <h3>Jeep Wisata Bromo</h3>
-              <h3>Tour Leader Bromo</h3>
-              <h3>Dokumentasi Wisata Bromo</h3>
-              <h3>Foto Video Drone Bromo</h3>
-              <h3>Makan di Bromo</h3>
-              <h3>Meeting Point Bromo</h3>
-              <h3>Rest Area Sekar Pajang</h3>
-              <h3>Terminal Salaman</h3>
-              <h3>Teseh Tempuran Pakelan</h3>
-              <h3>Artos</h3>
-              <h3>PMI Muntilan</h3>
-              <h3>Fly Over Jombor</h3>
-              <h3>Paket Wisata Murah Bromo</h3>
-              <h3>Biro Wisata Terbaik Magelang</h3>
-              <h3>Rental Mobil Jogja</h3>
-              <h3>Rental Mobil Semarang</h3>
-              <h3>Rental Mobil Solo</h3>
-              <h3>Jasa Event Organizer Magelang</h3>
-              <h3>Jasa Wedding Organizer Magelang</h3>
-              <h3>Manajemen Artis Magelang</h3>
-            </div>
-          </footer>
-        </body>
+          {/* <div className="container mx-auto px-6 py-3 flex flex-wrap items-center gap-2 text-gray-500 text-sm">
+            <h3>CV Elegan Prima</h3>
+            <h3>Priyo Oemar Bakrie</h3>
+            <h3>Biro Perjalanan Wisata Magelang</h3>
+            <h3>Sewa Hiace</h3>
+            <h3>Outbound</h3>
+            <h3>Open trip Bromo</h3>
+            <h3>Wisata Antar Pulau</h3>
+            <h3>Outbound Magelang</h3>
+            <h3>Capacity Building Magelang</h3>
+            <h3>Character Building Magelang</h3>
+            <h3>Leadership Training Magelang</h3>
+            <h3>Fungame Magelang</h3>
+            <h3>Event Organizer Magelang</h3>
+            <h3>Artis Management Magelang</h3>
+            <h3>Wedding Organizer Magelang</h3>
+            <h3>Rent Car Magelang</h3>
+            <h3>Harga Sewa Mobil Magelang</h3>
+            <h3>Outbound Jogja</h3>
+            <h3>Outbound Semarang</h3>
+            <h3>Outbound Solo</h3>
+            <h3>Paket Wisata Bromo</h3>
+            <h3>Paket Wisata Gunung Bromo</h3>
+            <h3>Tour Gunung Bromo</h3>
+            <h3>Sunrise Point Bromo</h3>
+            <h3>Bukit Teletabis Bromo</h3>
+            <h3>Pasir Berbisik Bromo</h3>
+            <h3>Padang Savana Bromo</h3>
+            <h3>Hiace Sewa Magelang</h3>
+            <h3>Tiket Wisata Bromo</h3>
+            <h3>Jeep Wisata Bromo</h3>
+            <h3>Tour Leader Bromo</h3>
+            <h3>Dokumentasi Wisata Bromo</h3>
+            <h3>Foto Video Drone Bromo</h3>
+            <h3>Makan di Bromo</h3>
+            <h3>Meeting Point Bromo</h3>
+            <h3>Rest Area Sekar Pajang</h3>
+            <h3>Terminal Salaman</h3>
+            <h3>Teseh Tempuran Pakelan</h3>
+            <h3>Artos</h3>
+            <h3>PMI Muntilan</h3>
+            <h3>Fly Over Jombor</h3>
+            <h3>Paket Wisata Murah Bromo</h3>
+            <h3>Biro Wisata Terbaik Magelang</h3>
+            <h3>Rental Mobil Jogja</h3>
+            <h3>Rental Mobil Semarang</h3>
+            <h3>Rental Mobil Solo</h3>
+            <h3>Jasa Event Organizer Magelang</h3>
+            <h3>Jasa Wedding Organizer Magelang</h3>
+            <h3>Manajemen Artis Magelang</h3>
+          </div> */}
+        </footer>
+      </body>
     </html>
   );
 }

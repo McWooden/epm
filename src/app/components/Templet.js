@@ -1,20 +1,33 @@
-import CardLarge from "./CardLarge";
+import Card from "./Card";
 import Contact from "./Contact";
 import Jumbotron from "./Jumbotron";
 import Quotes from "./Quotes";
+import YoutubeShort from "./YoutubeShort";
 
 export default function Templet() {
     return (
         <>
         <Jumbotron/>
-        <div id="produk" className="container mx-auto my-8 px-6">
+        <div className="container mx-auto my-8 px-6 pt-12">
             {/* Hero section */}
             {/* <Link href={'/produk/sewa-hiace'}> */}
-                <CardLarge path='sewa-hiace'/>
+
+            <YoutubeShort/>
+
+            <div id="produk" className="mt-16">
+                <h3 className="text-gray-600 text-2xl font-medium">Produk</h3>
+                <div className="flex flex-wrap gap-2 justify-between">
+                    <Card path='sewa-hiace'/>
+                    <Card path='open-trip-bromo'/>
+                    <Card path='antar-pulau'/>
+                    <Card path='outbound'/>
+                </div>
+            </div>
+                {/* <CardLarge path='sewa-hiace'/> */}
             {/* </Link> */}
-            <div className="flex flex-col md:flex-row gap-2">
-                {/* h-72 rounded-md overflow-hidden bg-cover bg-center */}
-                {/* <div className="w-full h-72 md:mx-4 rounded-md overflow-hidden bg-cover bg-center md:w-1/2"  style={{backgroundImage: `url(/assets/open-trip.jpg)`}}>
+            {/* <div className="flex flex-col md:flex-row gap-2">
+                h-72 rounded-md overflow-hidden bg-cover bg-center
+                <div className="w-full h-72 md:mx-4 rounded-md overflow-hidden bg-cover bg-center md:w-1/2"  style={{backgroundImage: `url(/assets/open-trip.jpg)`}}>
                     <div className="bg-gray-900 bg-opacity-50 flex items-center h-full">
                         <div className="px-10 max-w-xl">
                             <h2 className="text-2xl text-white font-semibold">Open trip Bromo</h2>
@@ -27,17 +40,17 @@ export default function Templet() {
                             </a>
                         </div>
                     </div>
-                </div> */}
+                </div>
                 <CardLarge path='open-trip-bromo' className="flex-1"/>
                 <CardLarge path='antar-pulau' className="flex-1"/>
             </div>
-            <CardLarge path='outbound' className="appear"/>
+            <CardLarge path='outbound' className="appear"/> */}
 
             <Quotes/>
 
             {/* Product sections */}
-            <div className="mt-16">
-                <h3 className="text-gray-600 text-2xl font-medium">Layanan</h3>
+            <div>
+                <h3 className="text-gray-600 text-2xl font-medium pt-12">Lainnya</h3>
                 <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-6">
                     {/* Add your product items here */}
                     <div className="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
