@@ -4,8 +4,8 @@ import { PiMedalDuotone } from "react-icons/pi";
 
 export default function Jumbotron() {
     return <div className="bg-[#111111] sm:bg-contain bg-cover bg-center bg-no-repeat relative background-animation">
-        <div className="absolute inset-0 bg-black bg-opacity-85"/>
-        <div className="flex flex-col gap-2 p-6  min-h-96 container mx-auto justify-center my-16 z-10 relative">
+        <div className="absolute inset-0 bg-black bg-opacity-75"/>
+        <div className="flex flex-col gap-2 min-h-96 container mx-auto justify-center sm:my-16 sm:px-8 my-8 px-8 z-10 relative">
             <h1 className="text-5xl font-bold text-neutral-300 mb-6 break-all sm:break-normal drop-shadow-xl leading-[1.3]"><span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-500">Event Organizer</span> dan <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-500">Biro Perjalanan Wisata</span> Jawa Tengah</h1>
             <p className="text-sm sm:text-lg text-gray-300 drop-shadow-xl">Ahli dalam Event Organizer dan Biro Perjalanan Wisata, Biro Perjalanan Wisata, Sewa Hiace, Outbound, Open trip Bromo, Wisata Antar Pulau!</p>
             <div className="flex flex-col gap-2 sm:flex-row w-full mt-8">
