@@ -8,7 +8,7 @@ export default function Card({path, className = ''}) {
     return <Link href={`/produk/${path}`} className={className}>
         <div className="relative flex flex-col rounded-xl shadow-xl group/card overflow-hidden max-w-sm bg-white">
             <div className="rounded-xl m-2 overflow-hidden h-36">
-                <Image src={data.image[0]} alt={data.title + 'image'} width={500} height={500} className="object-cover w-full h-full object-center shadow" />
+                <Image src={data.banner} alt={data.title + 'image'} width={500} height={500} className="object-cover w-full h-full object-center shadow" />
             </div>
             <div className="flex flex-col gap-2 p-4 h-32">
                 <div className="flex gap-2 justify-between">
