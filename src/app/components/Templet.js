@@ -9,7 +9,7 @@ export default function Templet() {
     return (
         <>
         <Jumbotron/>
-        <div className="container mx-auto my-16">
+        <div className="container mx-auto mt-16 mb-8">
             {/* Hero section */}
             {/* <Link href={'/produk/sewa-hiace'}> */}
 
