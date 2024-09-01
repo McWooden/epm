@@ -1,4 +1,4 @@
-import { findProductByPath } from "@/app/utils"
+import { findProductByPath, spaceToLink } from "@/app/utils"
 import { HiOutlineTicket } from "react-icons/hi2";
 import { FaStar } from "react-icons/fa6";
 import Image from "next/image"
@@ -49,7 +49,7 @@ export default function Page({params}) {
             <div className="border border-blue-600 flex-1 text-blue-600 flex justify-center items-center rounded-lg">
                 {data.price}
             </div>
-            <a href={`https://wa.me/6281329295252?text=${`Hai Pak Priyo, saya tertarik dengan ${data.title}. Apakah masih tersedia?`.split(' ').join('%20')}`} className="flex flex-1 items-center px-3 py-2 bg-blue-600 text-white text-sm justify-center font-medium rounded-lg hover:bg-blue-500 focus:outline-none focus:bg-blue-500 w-full">
+            <a href={`https://wa.me/6281329295252?text=${spaceToLink(`Hai Pak Priyo, saya tertarik dengan ${data.title}. Apakah masih tersedia?`)}`} className="flex flex-1 items-center px-3 py-2 bg-blue-600 text-white text-sm justify-center font-medium rounded-lg hover:bg-blue-500 focus:outline-none focus:bg-blue-500 w-full">
                 <span>Pesan sekarang</span>
             </a>
         </div>
