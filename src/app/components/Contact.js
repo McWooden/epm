@@ -30,7 +30,7 @@ export default function Contact() {
                 </a>
             </div>
             <div className="flex gap-2 flex-col sm:flex-row">
-                <a href={'https://youtu.be/-uIY7_6kpTo?si=Wez8Srhhe4ItqCT9'} className="flex gap-2 p-6 hover:shadow-[#FF0000] rounded-xl place-items-center flex-1 ease-in-out duration-100 shadow">
+                <a href={'https://www.youtube.com/@priyowahyusetyanto2677'} className="flex gap-2 p-6 hover:shadow-[#FF0000] rounded-xl place-items-center flex-1 ease-in-out duration-100 shadow">
                     <FaYoutube className="text-4xl text-[#FF0000]" />
                     <span className="break-all text-gray-800">Priyo Wahyu Setyanto</span>
                 </a>

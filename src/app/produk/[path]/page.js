@@ -1,7 +1,10 @@
 import { findProductByPath, spaceToLink } from "@/app/utils"
 import { HiOutlineTicket } from "react-icons/hi2";
 import { FaStar } from "react-icons/fa6";
+import { FaChevronLeft } from "react-icons/fa6";
 import Image from "next/image"
+import Link from "next/link";
+
 
 export async function generateMetadata({ params }) {
     // read route params
@@ -23,6 +26,9 @@ export default function Page({params}) {
     </div>
 
     return <div className="container mx-auto p-6 flex flex-col gap-6">
+        <Link href={'/'} className="p-4 rounded-full hover:bg-gray-200">
+            <FaChevronLeft className="text-xl"/>
+        </Link>
         <div className="flex flex-col sm:flex-row gap-2">
             <Image src={data.banner} alt="icon" width={500} height={500} className="rounded sm:w-32 w-full mr-auto flex-1"/>
             <div className="flex flex-col gap-1 flex-[2_2_0%] px-2">
