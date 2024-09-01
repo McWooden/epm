@@ -23,8 +23,8 @@ export default function Page({params}) {
     </div>
 
     return <div className="container mx-auto p-6 flex flex-col gap-6">
-        <div className="flex gap-2">
-            <Image src={data.banner} alt="icon" width={200} height={250} className="rounded w-36 mr-auto flex-1"/>
+        <div className="flex flex-col sm:flex-row gap-2">
+            <Image src={data.banner} alt="icon" width={500} height={500} className="rounded sm:w-32 w-full mr-auto flex-1"/>
             <div className="flex flex-col gap-1 flex-[2_2_0%] px-2">
                 <h3 className="font-semibold text-lg">{data.title}</h3>
                 <p className="opacity-90 text-xs">cveleganprima</p>
