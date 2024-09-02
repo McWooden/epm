@@ -1,17 +1,12 @@
-import Image from "next/image";
 import { FaQuoteRight } from "react-icons/fa";
-import { GiForestCamp } from "react-icons/gi";
 
 export default function Quotes() {
-    return <div className="flex gap-2 bg-gray-200 p-6 relative overflow-hidden">
-        <Image className="h-12 w-12 object-cover rounded-full" src={'/assets/other/biro-perjalanan-wisata.webp'} alt={'pp-quote'} width={250} height={250}/>
-        <div className="flex flex-col gap-2">
-            <p className="text-gray-800 text-2xl font-semibold flex gap-2 flex-wrap">Nikmatilah hari ini, besok kita cari cerita lagi.</p>
-            <p className="text-gray-600 text-sm">masyok, 7 July 2024.</p>
+    return <div className="flex gap-2 p-6 relative overflow-hidden rounded shadow bg-contain bg-right bg-no-repeat bg-[#d2e0ed]" style={{backgroundImage: 'url(/assets/priyo-wahyu.webp)'}}>
+        <div className="absolute inset-0 bg-black bg-opacity-20"/>
+        <FaQuoteRight className="absolute top-2 right-2 sm:relative text-2xl text-gray-100 drop-shadow z-10"/>
+        <div className="flex flex-col gap-2 z-10">
+            <p className="text-gray-100 text-2xl font-semibold flex gap-2 flex-wrap drop-shadow">Nikmatilah hari ini, besok kita cari cerita lagi.</p>
+            <p className="text-gray-100 text-sm drop-shadow-sm">masyok, 7 July 2024.</p>
         </div>
-        <div className="relative">
-            <FaQuoteRight className="absolute top-0 right-0 sm:relative text-2xl"/>
-        </div>
-        <GiForestCamp className="text-[7em] -bottom-1 -right-3 absolute text-gray-500"/>
     </div>
 }
