@@ -7,10 +7,10 @@ export default function Card({path, className = ''}) {
     if (!data) return <div>{path} tidak ditemukan</div>
     return <Link href={`/produk/${path}`} className={className}>
         <div className="relative flex flex-col rounded-xl shadow-xl group/card overflow-hidden max-w-sm bg-white">
-            <div className="rounded-xl m-2 overflow-hidden h-36">
-                <Image src={data.banner} alt={data.title + 'image'} width={500} height={500} className="object-cover w-full h-full object-center shadow" />
+            <div className={`p-2 w-full bg-[${data.shadow}]`}>
+                <Image src={data.banner} alt={data.title + 'image'} width={500} height={500} className={`object-cover w-full ${data.shadow} rounded-xl`} />
             </div>
-            <div className="flex flex-col gap-2 p-4 h-32">
+            <div className="flex flex-col gap-2 p-4">
                 <div className="flex gap-2 justify-between">
                     <h2 className="text-xl font-semibold text-gray-800">{data.title}</h2>
                     <span className="text-xl font-semibold text-gray-700">{data.price}</span>
