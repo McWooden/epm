@@ -19,7 +19,7 @@ html, body {
 
 /* Container with background image */
 .background-animation {
-    background-image: url('/assets/header-img.png');
+    background-image: url('/assets/header-img.webp');
     background-repeat: repeat-x; /* Repeat the background horizontally */
     background-position: 0 0;
     background-size: cover; /* Adjust the size as needed */

@@ -63,7 +63,7 @@ export default function Templet() {
                 <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-6">
                     {/* Add your product items here */}
                     <div className="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
-                        <div className="flex items-end justify-end h-56 w-full bg-cover bg-center" style={{backgroundImage: "url(/assets/other/biro-perjalanan-wisata.jpg)"}}>
+                        <div className="flex items-end justify-end h-56 w-full bg-cover bg-center" style={{backgroundImage: "url(/assets/other/biro-perjalanan-wisata.webp)"}}>
                         <a href={`https://wa.me/6281329295252?text=${spaceToLink(`Hai Pak Priyo, saya tertarik dengan Biro Perjalanan Wisata. Apakah masih tersedia?`)}`} className="p-2 rounded-full bg-blue-600 shadow-blue-500 shadow-md text-white mx-5 -mb-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
                         <svg className="h-5 w-5" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
                         </a>
@@ -74,7 +74,7 @@ export default function Templet() {
                     </div>
                     </div>
                     <div className="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
-                        <div className="flex items-end justify-end h-56 w-full bg-cover bg-center" style={{backgroundImage: "url(/assets/other/event-organizer.jpg)"}}>
+                        <div className="flex items-end justify-end h-56 w-full bg-cover bg-center" style={{backgroundImage: "url(/assets/other/event-organizer.webp)"}}>
                         <a href={`https://wa.me/6281329295252?text=${spaceToLink(`Hai Pak Priyo, saya tertarik dengan Event Organizer. Apakah masih tersedia?`)}`} className="p-2 rounded-full bg-blue-600 shadow-blue-500 shadow-md text-white mx-5 -mb-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
                         <svg className="h-5 w-5" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
                         </a>
@@ -85,7 +85,7 @@ export default function Templet() {
                     </div>
                     </div>
                     <div className="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
-                        <div className="flex items-end justify-end h-56 w-full bg-cover bg-center" style={{backgroundImage: "url(/assets/other/artis-management.jpg)"}}>
+                        <div className="flex items-end justify-end h-56 w-full bg-cover bg-center" style={{backgroundImage: "url(/assets/other/artis-management.webp)"}}>
                         <a href={`https://wa.me/6281329295252?text=${spaceToLink(`Hai Pak Priyo, saya tertarik dengan Event Organizer. Apakah masih tersedia?`)}`} className="p-2 rounded-full bg-blue-600 shadow-blue-500 shadow-md text-white mx-5 -mb-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
                         <svg className="h-5 w-5" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
                         </a>
@@ -96,7 +96,7 @@ export default function Templet() {
                     </div>
                     </div>
                     <div className="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
-                        <div className="flex items-end justify-end h-56 w-full bg-cover bg-center" style={{backgroundImage: "url(/assets/other/wedding-organizer.jpg)"}}>
+                        <div className="flex items-end justify-end h-56 w-full bg-cover bg-center" style={{backgroundImage: "url(/assets/other/wedding-organizer.webp)"}}>
                         <a href={`https://wa.me/6281329295252?text=${spaceToLink(`Hai Pak Priyo, saya tertarik dengan Artis Management. Apakah masih tersedia?`)}`} className="p-2 rounded-full bg-blue-600 shadow-blue-500 shadow-md text-white mx-5 -mb-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
                         <svg className="h-5 w-5" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
                         </a>
@@ -107,7 +107,7 @@ export default function Templet() {
                     </div>
                     </div>
                     <div className="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
-                        <div className="flex items-end justify-end h-56 w-full bg-cover bg-center" style={{backgroundImage: "url(/assets/other/rent-car.jpg)"}}>
+                        <div className="flex items-end justify-end h-56 w-full bg-cover bg-center" style={{backgroundImage: "url(/assets/other/rent-car.webp)"}}>
                         <a href={`https://wa.me/6281329295252?text=${spaceToLink(`Hai Pak Priyo, saya tertarik dengan Rent Car. Apakah masih tersedia?`)}`} className="p-2 rounded-full bg-blue-600 shadow-blue-500 shadow-md text-white mx-5 -mb-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
                         <svg className="h-5 w-5" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
                         </a>
