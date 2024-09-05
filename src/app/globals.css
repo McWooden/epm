@@ -40,3 +40,14 @@ html, body {
         background-position: 0 0;
     }
 }
+.bg-custom-gradient {
+    background: linear-gradient(to bottom, 
+      rgba(255, 255, 255, 0) 0%,   /* Transparent at 0% */
+      /* rgba(255, 255, 255, 0) 10%,  Still transparent at 10% */
+      rgba(255, 255, 255, 1) 5%,  /* Solid color starts at 10% */
+      rgba(255, 255, 255, 1) 95%,  /* Solid color ends at 90% */
+      /* rgba(255, 255, 255, 0) 90%,  Transparent starts again at 90% */
+      rgba(255, 255, 255, 0) 100%  /* Transparent at 100% */
+    );
+    background-attachment: fixed;
+}
