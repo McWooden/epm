@@ -30,14 +30,14 @@ export default function Page({params}) {
             <FaChevronLeft className="text-xl"/>
         </Link>
         <div className="flex flex-col sm:flex-row gap-2">
-            <Image src={data.banner} alt="icon" width={500} height={500} className="rounded sm:w-32 w-full mr-auto flex-1"/>
+            <Image src={data.banner} alt="icon" width={500} height={500} className={`rounded sm:w-32 w-full mr-auto flex-1 ${data.shadow}`}/>
             <div className="flex flex-col gap-1 flex-[2_2_0%] px-2">
                 <h3 className="font-semibold text-lg">{data.title}</h3>
                 <p className="opacity-90 text-xs">cveleganprima</p>
                 <p className="opacity-90 text-xs">Mas Priyok</p>
             </div>
         </div>
-        <div className="flex justify-around gap-2 px-6 shadow-xl rounded-xl py-6">
+        <div className="flex justify-around gap-2 px-6 shadow rounded py-6">
             <div className="flex flex-col gap-2 justify-center items-center">
                 <span className="flex text-sm gap-1 items-center">4,7 <FaStar /></span>
                 <span className="text-xs">256 ulasan</span>
@@ -52,10 +52,10 @@ export default function Page({params}) {
             </div>
         </div>
         <div className="flex gap-2">
-            <div className="border border-blue-600 flex-1 text-blue-600 flex justify-center items-center rounded-lg">
+            <div className="border border-blue-600 flex-1 text-blue-600 flex justify-center items-center rounded-xl py-4">
                 {data.price}
             </div>
-            <a href={`https://wa.me/6281329295252?text=${spaceToLink(`Hai Pak Priyo, saya tertarik dengan ${data.title}. Apakah masih tersedia?`)}`} className="flex flex-1 items-center px-3 py-2 bg-blue-600 text-white text-sm justify-center font-medium rounded-lg hover:bg-blue-500 focus:outline-none focus:bg-blue-500 w-full">
+            <a href={`https://wa.me/6281329295252?text=${spaceToLink(`Hai Pak Priyo, saya tertarik dengan ${data.title}. Apakah masih tersedia?`)}`} className="flex flex-1 items-center px-3 py-4 bg-blue-600 text-white text-sm justify-center font-medium rounded-xl hover:bg-blue-500 focus:outline-none focus:bg-blue-500 w-full">
                 <span>Pesan sekarang</span>
             </a>
         </div>
