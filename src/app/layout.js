@@ -6,6 +6,14 @@ import { RiNextjsFill } from "react-icons/ri";
 import { DiVisualstudio } from "react-icons/di";
 import { FaEdge } from "react-icons/fa";
 
+import { FaWhatsapp } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { LuMail } from "react-icons/lu";
+import { FaThreads } from "react-icons/fa6";
+import { FaTiktok } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { SiGooglemaps } from "react-icons/si";
+
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"]
@@ -114,26 +122,35 @@ export default function RootLayout({ children }) {
         <main className="flex flex-col bg-white flex-grow flex-1">
           {children}
         </main>
-        <footer className="bg-gray-200 mt-auto py-6">
-          <div className="container mx-auto px-6 py-3 flex justify-between items-center flex-col sm:flex-row">
-            <p className="text-xl font-bold text-gray-500 hover:text-gray-400">&copy; CV Elegan Prima Mandiri</p>
-            <p className="py-2 text-gray-500 sm:py-0 text-center">Monglong Margoyoso Salaman Magelang</p>
+        <footer className="bg-gray-200 mt-auto">
+          <div className="container px-6 py-12 flex flex-col w-full text-center sm:w-5/12 sm:text-start mr-auto">
+            <p className="text-xl font-bold text-gray-500">CV Elegan Prima Mandiri</p>
+            <p className="py-2 text-gray-500 sm:py-0 hover:text-gray-400">Ahli dalam Event Organizer dan Biro Perjalanan Wisata.</p>
+            <div className="flex mt-2 gap-2 text-gray-500 justify-center sm:justify-start">
+              <a href='https://www.instagram.com/cveleganprima'><FaInstagram/></a>
+              <a href='https://www.tiktok.com/@eleganprimamandirimgl'><FaTiktok/></a>
+              <a href='https://www.threads.net/@masiyok'><FaThreads/></a>
+              <a href='https://wa.me/6281329295252'><FaWhatsapp/></a>
+              <a href='mailto:eleganprimamandiri@gmail.com'><LuMail/></a>
+              <a href='https://www.youtube.com/@priyowahyusetyanto2677'><FaYoutube/></a>
+              <a href='https://maps.app.goo.gl/fHAGefWZMmtbTG3E9'><SiGooglemaps/></a>
+            </div>
           </div>
-          <div className="container mx-auto px-6 py-3 flex justify-between items-center flex-col sm:flex-row">
+          {/* <div className="container mx-auto px-6 py-3 flex justify-between items-center flex-col sm:flex-row">
+            <p className="text-3xl font-bold text-gray-500">&copy; CV Elegan Prima Mandiri</p>
+            <a href="https://wa.me/6281329295252" className="py-2 text-gray-500 sm:py-0 hover:text-gray-400">+62 813 2929 5252</a>
+          </div> */}
+          {/* <div className="container mx-auto px-6 py-3 flex justify-between items-center flex-col sm:flex-row">
             <a href="mailto:eleganprimamandiri@gmail.com" className="text-xl font-bold text-gray-500 hover:text-gray-400 break-all">eleganprimamandiri@gmail.com</a>
             <a href="https://wa.me/6281329295252" className="py-2 text-gray-500 sm:py-0 hover:text-gray-400">+62 813 2929 5252</a>
-          </div>
-          <a href="https://www.instagram.com/cveleganprima" className="container mx-auto px-6 py-3 flex justify-between items-center flex-col sm:flex-row group">
+          </div> */}
+          {/* <a href="https://www.instagram.com/cveleganprima" className="container mx-auto px-6 py-3 flex justify-between items-center flex-col sm:flex-row group">
             <p className="text-xl font-bold text-gray-500 group-hover:text-gray-400">Ikuti kami</p>
             <p className="py-2 text-gray-500 sm:py-0">@cveleganprima</p>
-          </a>
-          <div className="flex flex-col gap-2 mx-auto container text-gray-500 px-6 py-3">
-            <p>Terimakasih kepada</p>
-            <div className="flex flex-wrap gap-2">
-              <RiNextjsFill />
-              <DiVisualstudio />
-              <FaEdge />
-            </div>
+          </a> */}
+          <div className="border-t border-gray-500 w-full"/>
+          <div className="flex gap-2 container text-gray-500 p-6 items-center w-full text-center sm:w-5/12 sm:text-start mr-auto">
+            <span className="inline">Copyright &copy; {new Date().getFullYear()} CV Elegan Prima Mandiri. Terimakasih kepada <RiNextjsFill className="inline"/><DiVisualstudio className="inline"/><FaEdge className="inline"/></span>
           </div>
           {/* <div className="container mx-auto px-6 py-3 flex flex-wrap items-center gap-2 text-gray-500 text-sm">
             <h3>CV Elegan Prima</h3>

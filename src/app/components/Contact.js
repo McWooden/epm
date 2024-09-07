@@ -43,7 +43,7 @@ export default function Contact() {
             <div className="flex gap-2 flex-col sm:flex-row">
                 <a href={'https://maps.app.goo.gl/fHAGefWZMmtbTG3E9'} className="flex gap-2 p-6 hover:bg-green-100 rounded-xl place-items-center flex-1 ease-in-out duration-100 shadow">
                     <SiGooglemaps className="text-4xl text-green-600" />
-                    <span className="break-all text-gray-800">Elegan Prima Mandiri</span>
+                    <span className="break-all text-gray-800">Monglong Margoyoso Salaman Magelang</span>
                 </a>
             </div>
         </div>
