@@ -21,7 +21,7 @@ export default function Templet() {
             </div> */}
             <div className="bg-gradient-to-tr from-pink-500 to-violet-600">
                 <div className="container mx-auto p-6">
-                    <div className="flex flex-wrap gap-2 justify-around mt-6">
+                    <div className="flex flex-wrap gap-2 justify-center">
                         <Card path='sewa-hiace'/>
                         <Card path='open-trip-bromo'/>
                         <Card path='antar-pulau'/>

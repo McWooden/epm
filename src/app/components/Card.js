@@ -6,7 +6,7 @@ export default function Card({path, className = ''}) {
     const data = findProductByPath(path)
     if (!data) return <div>{path} tidak ditemukan</div>
     return <Link href={`/produk/${path}`} className={className}>
-        <div className="relative flex flex-col rounded-xl shadow-xl group/card overflow-hidden max-w-sm bg-custom-gradient">
+        <div className="relative flex flex-col rounded-xl shadow-xl group/card overflow-hidden max-w-sm bg-gray-200">
             <div className={`p-2 w-full bg-[${data.shadow}]`}>
                 <Image src={data.banner} alt={data.title + 'image'} width={370} height={150} className={`object-cover w-full ${data.shadow} rounded-xl`} />
             </div>
