@@ -11,8 +11,8 @@ const faqs = [
         "answer": "Ya, kami menyediakan paket wisata antar pulau ke berbagai destinasi seperti Bali, Lombok, Danau Toba, dan lainnya. Harga paket menyesuaikan dengan lokasi kunjungan dan jenis transportasi yang digunakan. #eleganevent"
     },
     {
-        "question": "Berapa lama durasi paket Open Trip Bromo?",
-        "answer": "Paket Open Trip Bromo kami adalah paket perjalanan dua hari dengan rute Magelang - Bromo pulang pergi."
+        "question": "Apa keunikan atau keunggulan kompetitif yang membedakan CV Elegan Prima Mandiri dari kompetitor?",
+        "answer": "Salah satu keunggulan utama kami adalah keterlibatan langsung pemimpin perusahaan dalam setiap proyek. Pemimpin kami selalu hadir di lapangan, memahami detail pekerjaan, dan terlibat langsung dalam aspek teknis proyek. Hal ini memastikan kualitas layanan yang konsisten, pengambilan keputusan yang cepat, dan solusi yang disesuaikan dengan kebutuhan spesifik setiap klien. Pendekatan hands-on ini memungkinkan kami untuk memberikan pengalaman yang lebih personal dan hasil yang memuaskan bagi setiap klien kami."
     },
     {
         "question": "Apakah CV Elegan Prima Mandiri juga melayani acara pernikahan?",
@@ -45,8 +45,9 @@ const faqs = [
 ]
 
 export default function Faq() {
-    return <div id="faq" className="pt-12 flex flex-col gap-2">
+    return <div id="faq" className="flex flex-col gap-2">
         <h3 className="text-gray-600 text-2xl font-medium pt-12">FAQ</h3>
+        <span className="text-gray-500">Selalu pastikan jawaban dari pertanyaan anda dengan menghubungi kami</span>
         {faqs.map((x,i) => <Accordian key={i} question={x.question} answear={x.answer}/>)}
     </div>
 }
@@ -54,9 +55,9 @@ export default function Faq() {
 function Accordian({question, answear}) {
     const [open, setOpen] = useState(false)
 
-    return <div className="shadow rounded p-4 font-semibold">
+    return <div className="shadow rounded p-4">
         <button onClick={() => setOpen(prev => !prev)} className="flex justify-between w-full">
-            <span className="capitalize text-gray-600 text-start">{question}</span>
+            <span className="capitalize text-gray-600 text-start font-semibold">{question}</span>
             <span className="text-gray-600">{open?'-' : '+'}</span>
         </button>
         <div className={`grid overflow-hidden text-sm transition-all ease-in-out text-gray-400 duration-300
