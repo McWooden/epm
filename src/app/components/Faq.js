@@ -3,16 +3,20 @@ import { useState } from "react"
 
 const faqs = [
     {
+        "question": "Bagaimana cara memesan layanan di CV Elegan Prima Mandiri?",
+        "answer": "Anda dapat menghubungi kami melalui nomor telepon +62 813 2929 5252. Kami juga bisa dihubungi melalui akun lain, lihat di bagian kontak di website ini."
+    },
+    {
+        "question": "Apa keunikan atau keunggulan kompetitif yang membedakan CV Elegan Prima Mandiri dari kompetitor?",
+        "answer": "Salah satu keunggulan utama kami adalah keterlibatan langsung pemimpin perusahaan dalam setiap proyek. Pemimpin kami selalu hadir di lapangan, memahami detail pekerjaan, dan terlibat langsung dalam aspek teknis proyek. Hal ini memastikan kualitas layanan yang konsisten, pengambilan keputusan yang cepat, dan solusi yang disesuaikan dengan kebutuhan spesifik setiap klien. Pendekatan hands-on ini memungkinkan kami untuk memberikan pengalaman yang lebih personal dan hasil yang memuaskan bagi setiap klien kami."
+    },
+    {
         "question": "Apa saja jenis transportasi yang disediakan oleh CV Elegan Prima Mandiri?",
         "answer": "Kami menyediakan berbagai jenis transportasi untuk memenuhi kebutuhan perjalanan Anda. Mulai dari mobil hingga Hiace, armada kami selalu siap melayani Anda. #elegantransport"
     },
     {
         "question": "Apakah CV Elegan Prima Mandiri menyediakan paket wisata ke luar pulau?",
         "answer": "Ya, kami menyediakan paket wisata antar pulau ke berbagai destinasi seperti Bali, Lombok, Danau Toba, dan lainnya. Harga paket menyesuaikan dengan lokasi kunjungan dan jenis transportasi yang digunakan. #eleganevent"
-    },
-    {
-        "question": "Apa keunikan atau keunggulan kompetitif yang membedakan CV Elegan Prima Mandiri dari kompetitor?",
-        "answer": "Salah satu keunggulan utama kami adalah keterlibatan langsung pemimpin perusahaan dalam setiap proyek. Pemimpin kami selalu hadir di lapangan, memahami detail pekerjaan, dan terlibat langsung dalam aspek teknis proyek. Hal ini memastikan kualitas layanan yang konsisten, pengambilan keputusan yang cepat, dan solusi yang disesuaikan dengan kebutuhan spesifik setiap klien. Pendekatan hands-on ini memungkinkan kami untuk memberikan pengalaman yang lebih personal dan hasil yang memuaskan bagi setiap klien kami."
     },
     {
         "question": "Apakah CV Elegan Prima Mandiri juga melayani acara pernikahan?",
@@ -25,10 +29,6 @@ const faqs = [
     {
         "question": "Apa saja jenis kegiatan outbound yang ditawarkan?",
         "answer": "Kami menawarkan berbagai jenis kegiatan outbound, termasuk capacity building, character building, leadership training, dan fun games. Lokasi dan harga dapat disesuaikan dengan jenis kegiatan dan jumlah peserta."
-    },
-    {
-        "question": "Bagaimana cara memesan layanan di CV Elegan Prima Mandiri?",
-        "answer": "Anda dapat menghubungi kami melalui nomor telepon +62 813 2929 5252. Kami juga bisa dihubungi melalui akun lain, lihat di bagian kontak di website ini."
     },
     {
         "question": "Apakah CV Elegan Prima Mandiri menyediakan layanan untuk acara korporat?",

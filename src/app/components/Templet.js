@@ -56,11 +56,9 @@ export default function Templet() {
             </div>
             <CardLarge path='outbound' className="appear"/> */}
 
-            <Quotes/>
-
             {/* Product sections */}
             <div>
-                <h3 className="text-gray-600 text-2xl font-medium pt-12">Lainnya</h3>
+                <h3 className="text-gray-600 text-2xl font-medium">Lainnya</h3>
                 <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-6">
                     {/* Add your product items here */}
                     <SmallCard title='Biro Perjalanan Wisata'/>
@@ -73,6 +71,7 @@ export default function Templet() {
             {/* You can add more sections as needed */}
             
             <Faq/>
+            <Quotes/>
             <Contact/>
         </div>
         </>

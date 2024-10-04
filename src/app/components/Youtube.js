@@ -1,5 +1,5 @@
 const sourceYoutube = [
-    {src: "https://www.youtube.com/embed/JlObLpanBHw", title: 'Event Organizer'},
+    {src: `https://www.youtube.com/embed/JlObLpanBHw?${process.env.NODE_ENV === 'production' && '?autoplay=1&mute=1'}`, title: 'Event Organizer'},
     {src: "https://www.youtube.com/embed/45zTd_6nw7k", title: 'Wisata'},
     {src: "https://www.youtube.com/embed/EWmQdPm7zXg", title: 'Elegan Transport'},
     {src: "https://www.youtube.com/embed/-uIY7_6kpTo", title: 'Elegan Prima Mandiri'},
