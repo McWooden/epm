@@ -17,34 +17,34 @@ export default function Jumbotron() {
                 <div className="sm:w-3/6"></div>
             </div>
             <div className="flex flex-col gap-2 sm:flex-row w-full mt-8">
-                <a href="#produk" className="flex items-center px-6 py-4 border text-blue-600 font-semibold rounded-xl border-blue-600 bg-blue-500 bg-opacity-10 hover:border-blue-500 hover:text-blue-500 hover:shadow-lg ease-in-out duration-200 shadow">Lihat Produk</a>
+                <a href="#produk" className="flex items-center px-6 py-4 text-blue-600 font-semibold rounded-xl border-2 border-blue-600 bg-blue-500 bg-opacity-10 hover:border-blue-500 hover:text-blue-500 hover:shadow-lg ease-in-out duration-200 shadow">Lihat Produk</a>
                 <a href="#kontak" className="flex items-center px-6 py-4 flex-1 bg-opacity-80 bg-violet-600 text-gray-200 rounded-xl ease-in-out duration-200 hover:bg-violet-500 shadow hover:shadow-lg">Kontak kami</a>
             </div>
         </div>
         <div className="flex gap-2 p-6 container mx-auto justify-around bg-white shadow-lg -mb-12 rounded-xl z-10 relative flex-wrap">
             <div className="flex flex-col gap-2 justify-center items-center">
-                <span className="flex text-4xl"><PiParkDuotone/></span>
-                <span className="text-xs">Bermain</span>
+                <span className="flex text-4xl"><PiParkDuotone className="text-gray-800"/></span>
+                <span className="text-xs text-gray-600">Bermain</span>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
-                <span className="flex text-4xl"><MdHiking/></span>
-                <span className="text-xs">Bertualang</span>
+                <span className="flex text-4xl"><MdHiking className="text-gray-800"/></span>
+                <span className="text-xs text-gray-600">Bertualang</span>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
-                <span className="flex text-4xl"><BsBusFront/></span>
-                <span className="text-xs">Transportasi</span>
+                <span className="flex text-4xl"><BsBusFront className="text-gray-800"/></span>
+                <span className="text-xs text-gray-600">Transportasi</span>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
-                <span className="flex text-4xl"><BiParty/></span>
-                <span className="text-xs">Perayaan</span>
+                <span className="flex text-4xl"><BiParty className="text-gray-800"/></span>
+                <span className="text-xs text-gray-600">Perayaan</span>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
-                <span className="flex text-4xl"><GoSmiley/></span>
-                <span className="text-xs">Hiburan</span>
+                <span className="flex text-4xl"><GoSmiley className="text-gray-800"/></span>
+                <span className="text-xs text-gray-600">Hiburan</span>
             </div>
             <div className="flex flex-col gap-2 justify-center items-center">
-                <span className="flex text-4xl"><PiMedalDuotone/></span>
-                <span className="text-xs">Bisnis</span>
+                <span className="flex text-4xl"><PiMedalDuotone className="text-gray-800"/></span>
+                <span className="text-xs text-gray-600">Bisnis</span>
             </div>
         </div>
     </div>
