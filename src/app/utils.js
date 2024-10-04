@@ -36,6 +36,36 @@ export const products = [
         image: ['/assets/produk/antar-pulau.jpg', '/assets/produk/antar-pulau-2.jpg']
     },
 ]
+
+export const smallProducts = [
+    {
+        title: 'Biro Perjalanan Wisata',
+        image: '/assets/other/biro-perjalanan-wisata.webp',
+    },
+    {
+        title: 'Elegan Event',
+        image: '/assets/other/event-organizer.webp',
+        description: 'Nek butuh hiburan teko call aja. Singer, Player, Tukang kendang sak sound ready banget',
+    },
+    {
+        title: 'Artis Managejement',
+        image: '/assets/other/artis-management.webp',
+    },
+    {
+        title: 'Wedding Organizer',
+        image: '/assets/other/wedding-organizer.webp',
+    },
+    {
+        title: 'Rent Car',
+        image: '/assets/other/rent-car.webp',
+    },
+]
+
+export function findProductByTitle(title) {
+    const smallProduct = smallProducts.find(x => x.title === title)
+    return smallProduct
+}
+
 export function findProductByPath(path) {
     const product = products.find(x => x.path === path)
     return product
