@@ -25,7 +25,7 @@ export default function Page({params}) {
         <p>Produk tidak ditemukan!</p>
     </div>
 
-    return <div className="container mx-auto p-6 flex flex-col gap-6">
+    return <div className="container mx-auto px-6 flex flex-col gap-6">
         <Link href={'/'} className="p-4 rounded-full hover:bg-gray-200">
             <FaChevronLeft className="text-xl"/>
         </Link>

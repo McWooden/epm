@@ -3,8 +3,8 @@ import Contact from "./Contact";
 import Jumbotron from "./Jumbotron";
 import Quotes from "./Quotes";
 import Youtube from "./Youtube";
-import { spaceToLink } from "../utils";
 import SmallCard from "./SmallCard";
+import Faq from "./Faq";
 
 export default function Templet() {
     return (
@@ -64,13 +64,15 @@ export default function Templet() {
                 <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-6">
                     {/* Add your product items here */}
                     <SmallCard title='Biro Perjalanan Wisata'/>
-                    <SmallCard title='Elegan Event'/>
                     <SmallCard title='Artis Managejement'/>
                     <SmallCard title='Wedding Organizer'/>
                     <SmallCard title='Rent Car'/>
+                    <SmallCard title='Elegan Event'/>
                 </div>
             </div>
             {/* You can add more sections as needed */}
+            
+            <Faq/>
             <Contact/>
         </div>
         </>

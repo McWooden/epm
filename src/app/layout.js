@@ -13,6 +13,8 @@ import { FaThreads } from "react-icons/fa6";
 import { FaTiktok } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { SiGooglemaps } from "react-icons/si";
+import { FaFacebookF } from "react-icons/fa";
+
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -133,6 +135,7 @@ export default function RootLayout({ children }) {
               <a href='https://wa.me/6281329295252'><FaWhatsapp/></a>
               <a href='mailto:eleganprimamandiri@gmail.com'><LuMail/></a>
               <a href='https://www.youtube.com/@priyowahyusetyanto2677'><FaYoutube/></a>
+              <a href='https://www.facebook.com/share/QBcKWB61BnccVJrF/'><FaFacebookF/></a>
               <a href='https://maps.app.goo.gl/fHAGefWZMmtbTG3E9'><SiGooglemaps/></a>
             </div>
           </div>
