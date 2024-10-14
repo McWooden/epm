@@ -83,7 +83,7 @@ export default function RootLayout({ children }) {
         <meta name="google-site-verification" content="Ugfk2Cb-kOIM3mlmaDR8nkUXt8kp4VOZ3_OPGroqQi8" />
       </Head>
       <body className={`${poppins.className} flex flex-col`}>
-        <header className="py-6 shadow-2xl">
+        <header className="sm:py-6 shadow-2xl">
           <div className="container mx-auto px-6 py-3">
             <div className="flex items-center justify-between">
               <div className="hidden w-full text-gray-600 md:flex md:items-center">
@@ -94,7 +94,7 @@ export default function RootLayout({ children }) {
                 <span className="mx-1 text-sm">Jawa Tengah</span>
               </div>
               <Link href={'/'} className="w-full">
-                <h1 className="w-full text-gray-700 md:text-center text-2xl font-semibold hover:text-600">
+                <h1 className="w-full text-gray-700 md:text-center sm:text-2xl font-semibold hover:text-600">
                   CV Elegan Prima Mandiri
                 </h1>
               </Link>
