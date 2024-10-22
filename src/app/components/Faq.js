@@ -4,8 +4,8 @@ import { useState } from "react"
 const faqs = [
     {
         "question": "Bagaimana cara memesan layanan di CV Elegan Prima Mandiri?",
-        "answer": "Gampang banget! Tinggal angkat ponsel dan telepon kami di +62 813 2929 5252. Atau, kalau mau lebih kekinian, cek bagian kontak di website kami. Semua serba ada di sana!"
-    },
+        "answer": "Mudah sekali! Cukup hubungi kami lewat WhatsApp di +62 813 2929 5252, kami selalu aktif dan siap membantu. Atau, bisa juga melalui DM Instagram @cveleganprima. Jangan lupa, bagian kontak di website kami juga memudahkan segala keperluan!"
+    },    
     {
         "question": "Apa keunikan atau keunggulan kompetitif yang membedakan CV Elegan Prima Mandiri dari kompetitor?",
         "answer": "Nah, keunggulan kami itu simpel tapi mematikan! Bos kami sendiri langsung terjun ke lapangan, jadi semuanya terpantau dengan teliti. Dengan pendekatan hands-on ini, kami siap memberikan pengalaman yang lebih personal dan, tentu saja, hasil yang bikin hati senang."

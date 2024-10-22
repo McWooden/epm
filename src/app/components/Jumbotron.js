@@ -21,7 +21,7 @@ export default function Jumbotron() {
                 <a href="#kontak" className="flex items-center px-6 py-4 flex-1 bg-opacity-80 bg-violet-600 text-gray-200 rounded-xl ease-in-out duration-200 hover:bg-violet-500 shadow hover:shadow-lg">Kontak kami</a>
             </div>
         </div>
-        <div className="flex gap-2 p-6 container mx-auto justify-around bg-white shadow-lg -mb-12 rounded-xl z-10 relative flex-wrap">
+        <div className="flex gap-2 p-6 container mx-auto sm:justify-around justify-center bg-white shadow-lg -mb-12 rounded-xl z-10 relative flex-wrap">
             <div className="flex flex-col gap-2 justify-center items-center">
                 <span className="flex text-4xl"><PiParkDuotone className="text-gray-800"/></span>
                 <span className="text-xs text-gray-600">Bermain</span>

@@ -74,25 +74,3 @@ export function findProductByPath(path) {
 export function spaceToLink(text) {
     return text.split(' ').join('%20')
 }
-// export const products = {
-//     'sewaHieace': {
-//         title: 'Sewa Hiace',
-//         description: 'Harga sewa lokal dan luar kota berbadan hubungi kami untuk harga terbaik.',
-//         price: 'Rp 1.000.000'
-//     },
-//     'outbound': {
-//         title: 'outbound',
-//         description: 'Outbound, capacity building, character building, leadership, fungame. Lokasi bisa memilih wilayah Magelang, Jogja, Semarang, Solo dll. Harga menyesuaikan jenis kegiatan, alat serta lokasi.',
-//         price: 'Rp 55.000'
-//     },
-//     'openTripNromo': {
-//         title: 'Open trip Bromo',
-//         description: 'Paket dua hari Magelang - Bromo Pulang Pergi.',
-//         price: 'Rp 650.000'
-//     },
-//     'wisataAntarPulau': {
-//         title: 'Wisata Antar Pulau',
-//         description: 'Wisata Antar Pulau ke Bali, Lombok, Toba dll, harga tercatum menyesuaikan dengan lokasi kunjungan dan transportasi yang digunakan.',
-//         price: 'Rp 1.600.000'
-//     },
-// }
